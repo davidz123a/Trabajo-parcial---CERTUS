@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+section {
+    flex: 1;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 50%; 
+    background-color: #808080;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #606060;
+}
+
+
+#perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.boton-modificar {
+    background-color: #808080;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.boton-modificar:hover {
+    background-color: #606060;
+}
+
+.datos-perfil {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.datos-perfil div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.boton-modificar {
+    background-color: #808080;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.boton-modificar:hover {
+    background-color: #606060;
+}
